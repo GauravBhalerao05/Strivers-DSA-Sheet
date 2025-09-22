@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-#include<map>
+#include<unordered_map>
 using namespace std;
 
 class Solution {
@@ -8,7 +8,7 @@ public:
     vector<vector<int>> countFrequencies(vector<int>& nums) {
         // Your code goes here
 
-        map<int,int> mp;
+        unordered_map<int,int> mp;
         vector<vector<int>> Vec;
         int i = 0;
 
@@ -33,13 +33,13 @@ int main()
     Solution obj;
     vector<vector<int>> Vect;
     vector<int> Numbs;
-    int iCount = 0, x = 0, i = 0;
+    int N = 0, x = 0, i = 0;
 
     cout<<"Enter the count of numbers: ";
-    cin>>iCount;
+    cin>>N;
 
     cout<<"Enter the numbers: "<<"\n";
-    for(i = 0; i<iCount; i++)
+    for(i = 0; i<N; i++)
     {
         cin>>x;
         Numbs.push_back(x);
@@ -54,3 +54,6 @@ int main()
 
     return 0;
 }
+
+// Time Complexity: O(N)
+// Sapce Complexity: O(N)

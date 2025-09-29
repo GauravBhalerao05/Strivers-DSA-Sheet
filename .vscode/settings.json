@@ -6,6 +6,8 @@
         "queue": "cpp",
         "deque": "cpp",
         "utility": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "selection sort": "cpp",
+        "vector": "cpp"
     }
 }

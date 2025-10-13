@@ -49,5 +49,6 @@ int main()
     {
         cout<<NumNew[i]<<"\t";
     }cout<<"\n";
+    
     return 0;
 }

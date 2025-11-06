@@ -8,6 +8,7 @@
         "utility": "cpp",
         "unordered_map": "cpp",
         "selection sort": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "map": "cpp"
     }
 }
